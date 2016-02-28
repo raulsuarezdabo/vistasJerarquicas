@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6243732F1C82F62100D2F393 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6243732E1C82F62100D2F393 /* AddItemViewController.swift */; };
+		624373311C83039500D2F393 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624373301C83039500D2F393 /* Reachability.swift */; };
+		624373331C83086F00D2F393 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624373321C83086F00D2F393 /* Book.swift */; };
+		62F632D91C83920C006D0B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F632D71C83920C006D0B66 /* Main.storyboard */; };
 		62FB26B51C8242B000BFE24F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB26B41C8242B000BFE24F /* AppDelegate.swift */; };
 		62FB26B81C8242B000BFE24F /* vistasjerarquicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62FB26B61C8242B000BFE24F /* vistasjerarquicas.xcdatamodeld */; };
 		62FB26BA1C8242B000BFE24F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB26B91C8242B000BFE24F /* MasterViewController.swift */; };
 		62FB26BC1C8242B000BFE24F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB26BB1C8242B000BFE24F /* DetailViewController.swift */; };
-		62FB26BF1C8242B000BFE24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FB26BD1C8242B000BFE24F /* Main.storyboard */; };
 		62FB26C11C8242B000BFE24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FB26C01C8242B000BFE24F /* Assets.xcassets */; };
 		62FB26C41C8242B000BFE24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FB26C21C8242B000BFE24F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6243732E1C82F62100D2F393 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		624373301C83039500D2F393 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		624373321C83086F00D2F393 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		62F632D81C83920C006D0B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62FB26B11C8242B000BFE24F /* vistasjerarquicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vistasjerarquicas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FB26B41C8242B000BFE24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62FB26B71C8242B000BFE24F /* vistasjerarquicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vistasjerarquicas.xcdatamodel; sourceTree = "<group>"; };
 		62FB26B91C8242B000BFE24F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		62FB26BB1C8242B000BFE24F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		62FB26BE1C8242B000BFE24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62FB26C01C8242B000BFE24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62FB26C31C8242B000BFE24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62FB26C51C8242B000BFE24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,14 +64,17 @@
 		62FB26B31C8242B000BFE24F /* vistasjerarquicas */ = {
 			isa = PBXGroup;
 			children = (
+				62F632D71C83920C006D0B66 /* Main.storyboard */,
 				62FB26B41C8242B000BFE24F /* AppDelegate.swift */,
 				62FB26B91C8242B000BFE24F /* MasterViewController.swift */,
 				62FB26BB1C8242B000BFE24F /* DetailViewController.swift */,
-				62FB26BD1C8242B000BFE24F /* Main.storyboard */,
 				62FB26C01C8242B000BFE24F /* Assets.xcassets */,
 				62FB26C21C8242B000BFE24F /* LaunchScreen.storyboard */,
 				62FB26C51C8242B000BFE24F /* Info.plist */,
 				62FB26B61C8242B000BFE24F /* vistasjerarquicas.xcdatamodeld */,
+				6243732E1C82F62100D2F393 /* AddItemViewController.swift */,
+				624373301C83039500D2F393 /* Reachability.swift */,
+				624373321C83086F00D2F393 /* Book.swift */,
 			);
 			path = vistasjerarquicas;
 			sourceTree = "<group>";
@@ -128,9 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F632D91C83920C006D0B66 /* Main.storyboard in Resources */,
 				62FB26C41C8242B000BFE24F /* LaunchScreen.storyboard in Resources */,
 				62FB26C11C8242B000BFE24F /* Assets.xcassets in Resources */,
-				62FB26BF1C8242B000BFE24F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6243732F1C82F62100D2F393 /* AddItemViewController.swift in Sources */,
 				62FB26B81C8242B000BFE24F /* vistasjerarquicas.xcdatamodeld in Sources */,
+				624373331C83086F00D2F393 /* Book.swift in Sources */,
+				624373311C83039500D2F393 /* Reachability.swift in Sources */,
 				62FB26B51C8242B000BFE24F /* AppDelegate.swift in Sources */,
 				62FB26BA1C8242B000BFE24F /* MasterViewController.swift in Sources */,
 				62FB26BC1C8242B000BFE24F /* DetailViewController.swift in Sources */,
@@ -151,10 +163,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		62FB26BD1C8242B000BFE24F /* Main.storyboard */ = {
+		62F632D71C83920C006D0B66 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				62FB26BE1C8242B000BFE24F /* Base */,
+				62F632D81C83920C006D0B66 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -294,6 +306,7 @@
 				62FB26CA1C8242B000BFE24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
